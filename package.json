@@ -1,0 +1,40 @@
+{
+  "name": "react-native-web_improved",
+  "version": "0.6.1",
+  "description": "batteries-included version of `react-native-web`",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piranna/react-native-web_improved.git"
+  },
+  "keywords": [
+    "react-native-web",
+    "batteries",
+    "bateries",
+    "included",
+    "Modal",
+    "FlatList",
+    "SectionList",
+    "StatusBar"
+  ],
+  "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piranna/react-native-web_improved/issues"
+  },
+  "homepage": "https://github.com/piranna/react-native-web_improved#readme",
+  "dependencies": {
+    "react-native-drawer-layout": "^2.0.0",
+    "react-native-slider": "^0.11.0",
+    "react-native-web": "^0.6.1",
+    "react-native-web-lists": "^0.1.1",
+    "react-native-web-modal": "^1.0.1",
+    "react-native-web-statusbar": "^0.0.0",
+    "react-native-web-webview": "^0.2.5"
+  },
+  "devDependencies": {
+    "buho": "^0.3.4"
+  }
+}
