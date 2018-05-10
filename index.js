@@ -1,14 +1,31 @@
-const ReactNative             = require('react-native-web')
+const ReactNative = require('react-native-web')
+const {
+  Alert,
+  AlertIOS,
+  Navigator: NavigatorIOS,
+  RefreshControl,
+  TabBarIOS
+} = require('react-native-web-extended')
 const {FlatList, SectionList} = require('react-native-web-lists')
 
-
-ReactNative.DrawerLayoutAndroid = require('react-native-drawer-layout').default
-ReactNative.FlatList            = FlatList
-ReactNative.Modal               = require('react-native-web-modal').default
-ReactNative.SectionList         = SectionList
-ReactNative.Slider              = require('react-native-slider').default
-ReactNative.StatusBar           = require('react-native-web-statusbar').default
-ReactNative.WebView             = require('react-native-web-webview').default
+import DrawerLayoutAndroid from 'react-native-drawer-layout'
+import Slider              from 'react-native-slider'
+import Modal               from 'react-native-web-modal'
+import StatusBar           from 'react-native-web-statusbar'
+import WebView             from 'react-native-web-webview'
 
 
-module.exports = ReactNative
+module.exports = Object.assign(ReactNative, {
+  Alert,
+  AlertIOS,
+  DrawerLayoutAndroid,
+  FlatList,
+  Modal,
+  NavigatorIOS,
+  RefreshControl,
+  SectionList,
+  Slider,
+  StatusBar,
+  TabBarIOS,
+  WebView
+})
