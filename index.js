@@ -1,31 +1,219 @@
-const ReactNative = require('react-native-web')
-const {
-  Alert,
-  AlertIOS,
-  Navigator: NavigatorIOS,
-  RefreshControl,
-  TabBarIOS
-} = require('react-native-web-extended')
-const {FlatList, SectionList} = require('react-native-web-lists')
-
 import DrawerLayoutAndroid from 'react-native-drawer-layout'
 import Slider              from 'react-native-slider'
-import Modal               from 'react-native-web-modal'
-import StatusBar           from 'react-native-web-statusbar'
-import WebView             from 'react-native-web-webview'
-
-
-module.exports = Object.assign(ReactNative, {
+import {
+  // top-level API
+  createElement,
+  findNodeHandle,
+  render,
+  unmountComponentAtNode,
+  // modules
+  processColor,
+  NativeModules,
+  TextPropTypes,
+  ViewPropTypes,
+  // APIs
+  Animated,
+  AppRegistry,
+  AppState,
+  AsyncStorage,
+  BackHandler,
+  Clipboard,
+  Dimensions,
+  Easing,
+  I18nManager,
+  InteractionManager,
+  Keyboard,
+  Linking,
+  NetInfo,
+  PanResponder,
+  PixelRatio,
+  Platform,
+  StyleSheet,
+  UIManager,
+  Vibration,
+  // components
+  ActivityIndicator,
+  ART,
+  Button,
+  CheckBox,
+  Image,
+  ImageBackground,
+  KeyboardAvoidingView,
+  ListView,
+  Picker,
+  ProgressBar,
+  SafeAreaView,
+  ScrollView,
+  Switch,
+  Text,
+  TextInput,
+  Touchable,
+  TouchableHighlight,
+  TouchableNativeFeedback,
+  TouchableOpaciNavigatorIOSty,
+  TouchableWithoutFeedback,
+  View,
+  VirtualizedList,
+  // propTypes
+  ColorPropType,
+  EdgeInsetsPropType,
+  PointPropType
+} from 'react-native-web'
+import {
   Alert,
   AlertIOS,
+  Navigator as NavigatorIOS,
+  RefreshControl,
+  TabBarIOS
+} from 'react-native-web-extended'
+import {FlatList, SectionList} from 'react-native-web-lists'
+import Modal                   from 'react-native-web-modal'
+import StatusBar               from 'react-native-web-statusbar'
+import WebView                 from 'react-native-web-webview'
+
+
+export {
+  // top-level API
+  createElement,
+  findNodeHandle,
+  render,
+  unmountComponentAtNode,
+  // modules
+  processColor,
+  NativeModules,
+  TextPropTypes,
+  ViewPropTypes,
+  // APIs
+  Alert,
+  AlertIOS,
+  Animated,
+  AppRegistry,
+  AppState,
+  AsyncStorage,
+  BackHandler,
+  Clipboard,
+  Dimensions,
+  Easing,
+  I18nManager,
+  InteractionManager,
+  Keyboard,
+  Linking,
+  NetInfo,
+  PanResponder,
+  PixelRatio,
+  Platform,
+  StyleSheet,
+  UIManager,
+  Vibration,
+  // components
+  ActivityIndicator,
+  ART,
+  Button,
+  CheckBox,
   DrawerLayoutAndroid,
   FlatList,
+  Image,
+  ImageBackground,
+  KeyboardAvoidingView,
+  ListView,
   Modal,
   NavigatorIOS,
+  Picker,
+  ProgressBar,
   RefreshControl,
+  SafeAreaView,
+  ScrollView,
   SectionList,
   Slider,
   StatusBar,
+  Switch,
   TabBarIOS,
-  WebView
-})
+  Text,
+  TextInput,
+  Touchable,
+  TouchableHighlight,
+  TouchableNativeFeedback,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View,
+  VirtualizedList,
+  WebView,
+  // propTypes
+  ColorPropType,
+  EdgeInsetsPropType,
+  PointPropType
+};
+
+const ReactNative = {
+  // top-level API
+  createElement,
+  findNodeHandle,
+  render,
+  unmountComponentAtNode,
+  // modules
+  processColor,
+  NativeModules,
+  TextPropTypes,
+  ViewPropTypes,
+  // APIs
+  Alert,
+  AlertIOS,
+  Animated,
+  AppRegistry,
+  AppState,
+  AsyncStorage,
+  BackHandler,
+  Clipboard,
+  Dimensions,
+  Easing,
+  I18nManager,
+  InteractionManager,
+  Keyboard,
+  Linking,
+  NetInfo,
+  PanResponder,
+  PixelRatio,
+  Platform,
+  StyleSheet,
+  UIManager,
+  Vibration,
+  // components
+  ActivityIndicator,
+  ART,
+  Button,
+  CheckBox,
+  DrawerLayoutAndroid,
+  FlatList,
+  Image,
+  ImageBackground,
+  KeyboardAvoidingView,
+  ListView,
+  Modal,
+  NavigatorIOS,
+  Picker,
+  ProgressBar,
+  RefreshControl,
+  SafeAreaView,
+  ScrollView,
+  SectionList,
+  Slider,
+  StatusBar,
+  Switch,
+  TabBarIOS,
+  Text,
+  TextInput,
+  Touchable,
+  TouchableHighlight,
+  TouchableNativeFeedback,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+  View,
+  VirtualizedList,
+  WebView,
+  // propTypes
+  ColorPropType,
+  EdgeInsetsPropType,
+  PointPropType
+};
+
+export default ReactNative;
