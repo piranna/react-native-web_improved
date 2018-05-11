@@ -59,17 +59,20 @@ import {
   EdgeInsetsPropType,
   PointPropType
 } from 'react-native-web'
-import {
-  Alert,
-  AlertIOS,
-  Navigator as NavigatorIOS,
-  RefreshControl,
-  TabBarIOS
-} from 'react-native-web-extended'
-import {FlatList, SectionList} from 'react-native-web-lists'
-import Modal                   from 'react-native-web-modal'
-import StatusBar               from 'react-native-web-statusbar'
-import WebView                 from 'react-native-web-webview'
+
+import Alert          from 'react-native-web-extended/dist/apis/Alert'
+import NavigatorIOS   from 'react-native-web-extended/dist/components/Navigator'
+import RefreshControl from 'react-native-web-extended/dist/components/RefreshControl'
+import TabBarIOS      from 'react-native-web-extended/dist/components/TabBarIOS'
+
+import FlatList    from 'react-native-web-lists/src/FlatList'
+import SectionList from 'react-native-web-lists/src/SectionList'
+
+import Modal     from 'react-native-web-modal'
+import StatusBar from 'react-native-web-statusbar'
+import WebView   from 'react-native-web-webview'
+
+const AlertIOS = Alert
 
 
 export {
