@@ -50,7 +50,7 @@ import {
   Touchable,
   TouchableHighlight,
   TouchableNativeFeedback,
-  TouchableOpaciNavigatorIOSty,
+  TouchableOpacity,
   TouchableWithoutFeedback,
   View,
   VirtualizedList,
@@ -142,9 +142,9 @@ export {
   ColorPropType,
   EdgeInsetsPropType,
   PointPropType
-};
+}
 
-const ReactNative = {
+export default {
   // top-level API
   createElement,
   findNodeHandle,
@@ -214,6 +214,4 @@ const ReactNative = {
   ColorPropType,
   EdgeInsetsPropType,
   PointPropType
-};
-
-export default ReactNative;
+}
