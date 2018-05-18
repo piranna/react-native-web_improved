@@ -3,7 +3,7 @@
   "version": "0.6.1",
   "description": "batteries-included version of `react-native-web`",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --notify"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,21 @@
     "react-native-web-webview": "^0.2.5"
   },
   "devDependencies": {
-    "buho": "^0.3.4"
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-native": "^4.0.0",
+    "buho": "^0.3.4",
+    "canvas": "^1.6.11",
+    "jest-cli": "^22.4.4",
+    "react": "^16.3.2",
+    "react-art": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^react-native$": "<rootDir>/node_modules/react-native-web"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/?!(react-router-native)"
+    ]
   }
 }
