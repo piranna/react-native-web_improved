@@ -61,7 +61,6 @@ import {
 } from 'react-native-web'
 
 import Alert          from 'react-native-web-extended/dist/apis/Alert'
-import NavigatorIOS   from 'react-native-web-extended/dist/components/Navigator'
 import RefreshControl from 'react-native-web-extended/dist/components/RefreshControl'
 import TabBarIOS      from 'react-native-web-extended/dist/components/TabBarIOS'
 
@@ -120,7 +119,6 @@ export {
   KeyboardAvoidingView,
   ListView,
   Modal,
-  NavigatorIOS,
   Picker,
   ProgressBar,
   RefreshControl,
@@ -192,7 +190,6 @@ export default {
   KeyboardAvoidingView,
   ListView,
   Modal,
-  NavigatorIOS,
   Picker,
   ProgressBar,
   RefreshControl,
