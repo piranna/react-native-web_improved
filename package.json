@@ -14,10 +14,16 @@
     "batteries",
     "bateries",
     "included",
-    "Modal",
+    "Alert",
+    "AlertIOS",
     "FlatList",
+    "Modal",
+    "RefreshControl",
     "SectionList",
-    "StatusBar"
+    "Slider",
+    "StatusBar",
+    "TabBarIOS",
+    "WebView"
   ],
   "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
   "license": "ISC",
