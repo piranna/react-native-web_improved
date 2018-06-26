@@ -36,6 +36,7 @@ import {
   ART,
   Button,
   CheckBox,
+  FlatList,
   Image,
   ImageBackground,
   KeyboardAvoidingView,
@@ -44,6 +45,7 @@ import {
   ProgressBar,
   SafeAreaView,
   ScrollView,
+  SectionList,
   Switch,
   Text,
   TextInput,
@@ -63,9 +65,6 @@ import {
 import Alert          from 'react-native-web-extended/dist/apis/Alert'
 import RefreshControl from 'react-native-web-extended/dist/components/RefreshControl'
 import TabBarIOS      from 'react-native-web-extended/dist/components/TabBarIOS'
-
-import FlatList    from 'react-native-web-lists/src/FlatList'
-import SectionList from 'react-native-web-lists/src/SectionList'
 
 import Modal     from 'react-native-web-modal'
 import StatusBar from 'react-native-web-statusbar'
