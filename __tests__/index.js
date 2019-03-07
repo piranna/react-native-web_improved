@@ -4,7 +4,6 @@ import {
   DrawerLayoutAndroid,
   Modal,
   RefreshControl,
-  Slider,
   StatusBar,
   TabBarIOS,
   WebView
@@ -19,7 +18,6 @@ test('exports', function()
   expect(DrawerLayoutAndroid.name).toBe('DrawerLayout')
   expect(Modal.name).toBe('Modal')
   expect(RefreshControl.name).toBe('RefreshControl')
-  expect(Slider.name).toBe('Slider')
   expect(StatusBar.name).toBe('StatusBar')
   expect(TabBarIOS.name).toBe('TabBarIOS')
   expect(WebView.name).toBe('_class')

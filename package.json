@@ -18,7 +18,6 @@
     "AlertIOS",
     "Modal",
     "RefreshControl",
-    "Slider",
     "StatusBar",
     "TabBarIOS",
     "WebView"
@@ -31,7 +30,6 @@
   "homepage": "https://github.com/piranna/react-native-web_improved#readme",
   "dependencies": {
     "react-native-drawer-layout": "^2.0.0",
-    "react-native-slider": "^0.11.0",
     "react-native-web": "^0.9.9",
     "react-native-web-extended": "piranna/react-native-web-extended",
     "react-native-web-modal": "^1.0.1",

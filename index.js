@@ -1,5 +1,4 @@
 import DrawerLayoutAndroid from 'react-native-drawer-layout'
-import Slider              from 'react-native-slider'
 import {
   // top-level API
   createElement,
@@ -124,7 +123,6 @@ export {
   SafeAreaView,
   ScrollView,
   SectionList,
-  Slider,
   StatusBar,
   Switch,
   TabBarIOS,
@@ -195,7 +193,6 @@ export default {
   SafeAreaView,
   ScrollView,
   SectionList,
-  Slider,
   StatusBar,
   Switch,
   TabBarIOS,
