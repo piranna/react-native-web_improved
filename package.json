@@ -1,6 +1,6 @@
 {
   "name": "react-native-web_improved",
-  "version": "0.9.9",
+  "version": "0.10.0",
   "description": "batteries-included version of `react-native-web`",
   "scripts": {
     "test": "jest --coverage --notify"
