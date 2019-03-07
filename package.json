@@ -30,7 +30,7 @@
   "homepage": "https://github.com/piranna/react-native-web_improved#readme",
   "dependencies": {
     "react-native-drawer-layout": "^2.0.0",
-    "react-native-web": "^0.9.9",
+    "react-native-web": "^0.10.0",
     "react-native-web-extended": "piranna/react-native-web-extended",
     "react-native-web-modal": "^1.0.1",
     "react-native-web-statusbar": "^0.0.0",
@@ -40,11 +40,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react-native": "^4.0.1",
     "buho": "^0.3.4",
-    "canvas": "^2.2.0",
-    "jest-cli": "^23.6.0",
-    "react": "^16.7.0",
-    "react-art": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "canvas": "^2.3.1",
+    "jest-cli": "^24.1.0",
+    "react": "^16.8.4",
+    "react-art": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "jest": {
     "moduleNameMapper": {
